@@ -173,7 +173,7 @@ const Home = () => (
           </ListItem>
           <ListItem>
             <Link
-              href="https://linkedin.com/rajul-singh-030024ba/"
+              href="https://linkedin.com/in/rajul-singh-030024ba/"
               target="_blank"
             >
               <Button
