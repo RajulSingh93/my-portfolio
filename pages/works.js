@@ -1,117 +1,44 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
-
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import Paragraph from "../components/paragraph";
 
 const Works = () => (
-  <Layout title="Works">
-    <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Works
-      </Heading>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
-          >
-            Music recommendation app for iOS
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
-          >
-            The mode magazine for understanding to personally enjoy Japan
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Old works
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-    </Container>
-  </Layout>
+    <Layout title="Works">
+        <Container>
+            <Heading as="h3" fontSize={20} mb={4}>
+                Works
+            </Heading>
+            <Section delay={0.1}>
+                <Heading as="h3" variant="section-title">
+                    Experience as a Front-End Developer
+                </Heading>
+                <Paragraph>
+                    I have designed many successful websites in my 2.5 years of working in the field. I worked on 10+ front-end projects, delivering innovative concepts, wireframes, low-fidelity prototypes, and engaging user experiences.
+                </Paragraph>
+            </Section>
+            <Section delay={0.2}>
+                <Paragraph>
+                    Developed 5+ e-commerce sites for small business owners using various web technologies
+                    I meet with clients to hear what they expect the site to appear and how they'd like the pages to link to each other and maintain contact during the design process. I carefully test sites to ascertain they function smoothly on computers and smartphones and with different browsers and have participated in developing apps.
+                </Paragraph>
+            </Section>
+            <Section delay={0.3}>
+                <Paragraph>
+                    Principled expert with the capacity to utilize various industry programming programs
+                    I am proficient in Adobe Illustrator InDesign, Photoshop, and Bridge and am very familiar with CSS, Joomla, WordPress, and HTML. I can use animation on web pages and include advertising in a manner that doesn't feel distracting or annoying.
+                </Paragraph>
+            </Section>
+            <Section delay={0.4}>
+                <Heading as="h3" variant="section-title">
+                    Specialties
+                </Heading>
+                <Paragraph>
+                    PMLC, Service Delivery SDLC, program management, project management, personnel management, business process development and business improvement, creating customer-centric operations, Customer journey mapping, Microsoft, and Agile/Scrum and SAFe® Framework.
+                </Paragraph>
+            </Section>
+        </Container>
+    </Layout>
 )
 
 export default Works
