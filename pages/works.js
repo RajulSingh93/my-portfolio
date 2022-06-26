@@ -20,13 +20,13 @@ const Works = () => (
             <Section delay={0.2}>
                 <Paragraph>
                     Developed 5+ e-commerce sites for small business owners using various web technologies
-                    I meet with clients to hear what they expect the site to appear and how they'd like the pages to link to each other and maintain contact during the design process. I carefully test sites to ascertain they function smoothly on computers and smartphones and with different browsers and have participated in developing apps.
+                    I meet with clients to hear what they expect the site to appear and how they&apos;d like the pages to link to each other and maintain contact during the design process. I carefully test sites to ascertain they function smoothly on computers and smartphones and with different browsers and have participated in developing apps.
                 </Paragraph>
             </Section>
             <Section delay={0.3}>
                 <Paragraph>
                     Principled expert with the capacity to utilize various industry programming programs
-                    I am proficient in Adobe Illustrator InDesign, Photoshop, and Bridge and am very familiar with CSS, Joomla, WordPress, and HTML. I can use animation on web pages and include advertising in a manner that doesn't feel distracting or annoying.
+                    I am proficient in Adobe Illustrator InDesign, Photoshop, and Bridge and am very familiar with CSS, Joomla, WordPress, and HTML. I can use animation on web pages and include advertising in a manner that doesnt feel distracting or annoying.
                 </Paragraph>
             </Section>
             <Section delay={0.4}>
