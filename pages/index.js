@@ -81,7 +81,7 @@ const Home = () => (
                     Worked at Worldsoft Technologies, Bhopal (India)
                 </BioSection>
                 <BioSection>
-                    <BioYear>Jan 2021-2023</BioYear>
+                    <BioYear>Jan 2021-2022</BioYear>
                     Styding MBA Information System at Pace University, New York
                 </BioSection>
             </Section>
@@ -118,9 +118,9 @@ const Home = () => (
                     Cooking
                 </Paragraph>
                 <Box align="center" my={4}>
-                    <a download href="./Rajul_Singh_Resume.pdf">
+                    <a href="https://drive.google.com/file/d/1V2Osjw6uLXbp7djiVi-J1UXKcu01-sW2/view?usp=sharing">
                         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                            Curriculam Vitae
+                            Resume
                         </Button>
                     </a>
                 </Box>
