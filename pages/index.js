@@ -31,7 +31,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Rajul Singh
           </Heading>
-          <p>Project/Product Manager</p>
+          {/*<p>Project/Product Manager</p>*/}
         </Box>
         <Box
           flexShrink={0}
