@@ -1,6 +1,5 @@
 import { Container, Heading, Box, Image } from "@chakra-ui/react";
 import Paragraph from "../components/paragraph";
-import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import {} from "react-icons/io5";
